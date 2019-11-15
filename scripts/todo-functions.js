@@ -112,7 +112,7 @@ const generateTodoDOM = (todo) => {
     todoEl.appendChild(containerEl)
 
     //Setup remove button
-    removeButton.textContent = 'remove'
+    removeButton.textContent = 'supprimer'
     removeButton.classList.add('button',)
     todoEl.appendChild(removeButton)
     removeButton.addEventListener('click', () => {
